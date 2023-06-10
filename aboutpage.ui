@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>aboutPage</class>
+ <widget class="QWidget" name="aboutPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(198, 165, 126);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="0,0" columnstretch="0,0">
+   <item row="1" column="0">
+    <widget class="QWidget" name="widgetLogo" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>186</width>
+       <height>276</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>186</width>
+       <height>276</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout"/>
+    </widget>
+   </item>
+   <item row="1" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="maximumSize">
+      <size>
+       <width>180</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;Academy Engraved LET&quot;;</string>
+     </property>
+     <property name="plainText">
+      <string>This app is an electronic library. Неre user can find any book he/she is interested in. Every book has detailed description. 
+     Enjoy reading!</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
